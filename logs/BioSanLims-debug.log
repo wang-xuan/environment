@@ -1,38 +1,11 @@
-2018-12-14 16:07:26.051  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Starting EnvironmentApplication on LAPTOP-J2F3UG0L with PID 11644 (D:\JetBrains\idea-workspace\environment\target\classes started by wangxuan in D:\JetBrains\idea-workspace\environment)
-2018-12-14 16:07:26.055  [main] DEBUG [com.itwx.environment.EnvironmentApplication:] maincid - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
-2018-12-14 16:07:26.055  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - No active profile set, falling back to default profiles: default
-2018-12-14 16:07:27.454  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Started EnvironmentApplication in 1.844 seconds (JVM running for 2.865)
-2018-12-14 16:11:20.493  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Starting EnvironmentApplication on LAPTOP-J2F3UG0L with PID 3572 (D:\JetBrains\idea-workspace\environment\target\classes started by wangxuan in D:\JetBrains\idea-workspace\environment)
-2018-12-14 16:11:20.497  [main] DEBUG [com.itwx.environment.EnvironmentApplication:] maincid - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
-2018-12-14 16:11:20.497  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - No active profile set, falling back to default profiles: default
-2018-12-14 16:11:21.864  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Started EnvironmentApplication in 1.812 seconds (JVM running for 2.786)
-2018-12-14 16:52:05.217  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Starting EnvironmentApplication on LAPTOP-J2F3UG0L with PID 11144 (D:\JetBrains\idea-workspace\environment\target\classes started by wangxuan in D:\JetBrains\idea-workspace\environment)
-2018-12-14 16:52:05.223  [main] DEBUG [com.itwx.environment.EnvironmentApplication:] maincid - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
-2018-12-14 16:52:05.224  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - No active profile set, falling back to default profiles: default
-2018-12-14 16:52:42.851  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Starting EnvironmentApplication on LAPTOP-J2F3UG0L with PID 14468 (D:\JetBrains\idea-workspace\environment\target\classes started by wangxuan in D:\JetBrains\idea-workspace\environment)
-2018-12-14 16:52:42.855  [main] DEBUG [com.itwx.environment.EnvironmentApplication:] maincid - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
-2018-12-14 16:52:42.855  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - No active profile set, falling back to default profiles: default
-2018-12-14 16:52:44.265  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Started EnvironmentApplication in 1.867 seconds (JVM running for 2.825)
-2018-12-14 16:54:36.647  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Starting EnvironmentApplication on LAPTOP-J2F3UG0L with PID 12736 (D:\JetBrains\idea-workspace\environment\target\classes started by wangxuan in D:\JetBrains\idea-workspace\environment)
-2018-12-14 16:54:36.651  [main] DEBUG [com.itwx.environment.EnvironmentApplication:] maincid - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
-2018-12-14 16:54:36.651  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - The following profiles are active: dev
-2018-12-14 16:54:38.085  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Started EnvironmentApplication in 1.901 seconds (JVM running for 2.92)
-2018-12-14 16:56:19.463  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Starting EnvironmentApplication on LAPTOP-J2F3UG0L with PID 11252 (D:\JetBrains\idea-workspace\environment\target\classes started by wangxuan in D:\JetBrains\idea-workspace\environment)
-2018-12-14 16:56:19.467  [main] DEBUG [com.itwx.environment.EnvironmentApplication:] maincid - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
-2018-12-14 16:56:19.467  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - No active profile set, falling back to default profiles: default
-2018-12-14 16:56:20.949  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Started EnvironmentApplication in 1.929 seconds (JVM running for 2.915)
-2018-12-14 16:56:54.296  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Starting EnvironmentApplication on LAPTOP-J2F3UG0L with PID 4392 (D:\JetBrains\idea-workspace\environment\target\classes started by wangxuan in D:\JetBrains\idea-workspace\environment)
-2018-12-14 16:56:54.300  [main] DEBUG [com.itwx.environment.EnvironmentApplication:] maincid - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
-2018-12-14 16:56:54.300  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - No active profile set, falling back to default profiles: default
-2018-12-14 16:56:55.731  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Started EnvironmentApplication in 1.885 seconds (JVM running for 2.893)
-2018-12-14 16:56:56.904  [http-nio-8601-exec-1] DEBUG [com.itwx.environment.mybatis.cache.mapper.UserMapper.selectUserByName:] http-nio-8601-exec-1cid - ==>  Preparing: select id,name,balance,state from user where 1=1 and name = "caoyc" 
-2018-12-14 16:56:56.917  [http-nio-8601-exec-1] DEBUG [com.itwx.environment.mybatis.cache.mapper.UserMapper.selectUserByName:] http-nio-8601-exec-1cid - ==> Parameters: 
-2018-12-14 16:56:56.930  [http-nio-8601-exec-1] DEBUG [com.itwx.environment.mybatis.cache.mapper.UserMapper.selectUserByName:] http-nio-8601-exec-1cid - <==      Total: 1
-2018-12-14 16:57:14.571  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Starting EnvironmentApplication on LAPTOP-J2F3UG0L with PID 9536 (D:\JetBrains\idea-workspace\environment\target\classes started by wangxuan in D:\JetBrains\idea-workspace\environment)
-2018-12-14 16:57:14.576  [main] DEBUG [com.itwx.environment.EnvironmentApplication:] maincid - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
-2018-12-14 16:57:14.576  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - The following profiles are active: dev
-2018-12-14 16:57:16.026  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Started EnvironmentApplication in 1.919 seconds (JVM running for 2.875)
-2018-12-14 16:57:40.660  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Starting EnvironmentApplication on LAPTOP-J2F3UG0L with PID 13828 (D:\JetBrains\idea-workspace\environment\target\classes started by wangxuan in D:\JetBrains\idea-workspace\environment)
-2018-12-14 16:57:40.664  [main] DEBUG [com.itwx.environment.EnvironmentApplication:] maincid - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
-2018-12-14 16:57:40.664  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - No active profile set, falling back to default profiles: default
-2018-12-14 16:57:42.079  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Started EnvironmentApplication in 1.883 seconds (JVM running for 2.855)
+2018-12-17 10:53:43.906  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Starting EnvironmentApplication on LAPTOP-J2F3UG0L with PID 16336 (D:\JetBrains\idea-workspace\environment\target\classes started by wangxuan in D:\JetBrains\idea-workspace\environment)
+2018-12-17 10:53:43.910  [main] DEBUG [com.itwx.environment.EnvironmentApplication:] maincid - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2018-12-17 10:53:43.911  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - No active profile set, falling back to default profiles: default
+2018-12-17 10:53:45.531  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Started EnvironmentApplication in 2.115 seconds (JVM running for 3.157)
+2018-12-17 10:55:15.042  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Starting EnvironmentApplication on LAPTOP-J2F3UG0L with PID 13688 (D:\JetBrains\idea-workspace\environment\target\classes started by wangxuan in D:\JetBrains\idea-workspace\environment)
+2018-12-17 10:55:15.047  [main] DEBUG [com.itwx.environment.EnvironmentApplication:] maincid - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2018-12-17 10:55:15.048  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - No active profile set, falling back to default profiles: default
+2018-12-17 10:55:16.478  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Started EnvironmentApplication in 1.88 seconds (JVM running for 2.821)
+2018-12-17 10:55:18.177  [http-nio-8601-exec-1] DEBUG [com.itwx.environment.mybatis.cache.mapper.UserMapper.selectUserByName:] http-nio-8601-exec-1cid - ==>  Preparing: select id,name,balance,state from user where 1=1 and name = "caoyc" 
+2018-12-17 10:55:18.199  [http-nio-8601-exec-1] DEBUG [com.itwx.environment.mybatis.cache.mapper.UserMapper.selectUserByName:] http-nio-8601-exec-1cid - ==> Parameters: 
+2018-12-17 10:55:18.216  [http-nio-8601-exec-1] DEBUG [com.itwx.environment.mybatis.cache.mapper.UserMapper.selectUserByName:] http-nio-8601-exec-1cid - <==      Total: 1

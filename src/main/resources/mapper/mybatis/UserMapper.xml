@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.itwx.environment.mybatis.cache.mapper.UserMapper">
+    <resultMap id="userResultMap" type="com.itwx.environment.mybatis.cache.model.User">
+        <result column="name" property="name" jdbcType="VARCHAR"/>
+    </resultMap>
+   <!-- <select id="selectUserByState" parameterType="java.lang.Integer" resultType="com.itwx.environment.mybatis.cache.model.User">
+        select id,name,balance,state from user
+        where 1=1
+        <if test="state != null and state != ''">
+            and state = #{state}
+        </if>
+    </select>-->
+    <select id="selectUserByState" parameterType="java.lang.Integer" resultType="com.itwx.environment.mybatis.cache.model.User">
+        select id,name,balance,state from user
+        where 1=1
+       <!-- <if test="state != null">
+            and state = ${state}
+        </if>-->
+        <if test="state != null">
+            and state = #{state}
+        </if>
+    </select>
+
+    <select id="selectUserByName" resultType="com.itwx.environment.mybatis.cache.model.User" parameterType="java.lang.String">
+         select id,name,balance,state from user
+        where 1=1
+        <if test="name != null and name != ''">
+            and name = ${name}
+        </if>
+        <!--<if test="name != null and name != ''">
+            and name = #{name}
+        </if>-->
+    </select>
+</mapper>

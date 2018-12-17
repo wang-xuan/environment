@@ -1,0 +1,46 @@
+2018-12-14 15:29:33.950  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Starting EnvironmentApplication on LAPTOP-J2F3UG0L with PID 14236 (D:\JetBrains\idea-workspace\environment\target\classes started by wangxuan in D:\JetBrains\idea-workspace\environment)
+2018-12-14 15:29:33.962  [main] DEBUG [com.itwx.environment.EnvironmentApplication:] maincid - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2018-12-14 15:29:33.962  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - No active profile set, falling back to default profiles: default
+2018-12-14 15:29:35.434  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Started EnvironmentApplication in 1.969 seconds (JVM running for 2.944)
+2018-12-14 15:29:47.598  [http-nio-8601-exec-1] DEBUG [com.itwx.environment.mybatis.cache.mapper.UserMapper.selectUserByState:] http-nio-8601-exec-1cid - ==>  Preparing: select id,name,balance,state from user where 1=1 
+2018-12-14 15:29:47.610  [http-nio-8601-exec-1] DEBUG [com.itwx.environment.mybatis.cache.mapper.UserMapper.selectUserByState:] http-nio-8601-exec-1cid - ==> Parameters: 
+2018-12-14 15:29:47.630  [http-nio-8601-exec-1] DEBUG [com.itwx.environment.mybatis.cache.mapper.UserMapper.selectUserByState:] http-nio-8601-exec-1cid - <==      Total: 2
+2018-12-14 15:30:04.641  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Starting EnvironmentApplication on LAPTOP-J2F3UG0L with PID 5368 (D:\JetBrains\idea-workspace\environment\target\classes started by wangxuan in D:\JetBrains\idea-workspace\environment)
+2018-12-14 15:30:04.644  [main] DEBUG [com.itwx.environment.EnvironmentApplication:] maincid - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2018-12-14 15:30:04.645  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - No active profile set, falling back to default profiles: default
+2018-12-14 15:30:05.992  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Started EnvironmentApplication in 1.785 seconds (JVM running for 2.736)
+2018-12-14 15:30:09.209  [http-nio-8601-exec-1] DEBUG [com.itwx.environment.mybatis.cache.mapper.UserMapper.selectUserByState:] http-nio-8601-exec-1cid - ==>  Preparing: select id,name,balance,state from user where 1=1 and state = 0 
+2018-12-14 15:30:09.224  [http-nio-8601-exec-1] DEBUG [com.itwx.environment.mybatis.cache.mapper.UserMapper.selectUserByState:] http-nio-8601-exec-1cid - ==> Parameters: 
+2018-12-14 15:30:09.236  [http-nio-8601-exec-1] DEBUG [com.itwx.environment.mybatis.cache.mapper.UserMapper.selectUserByState:] http-nio-8601-exec-1cid - <==      Total: 1
+2018-12-14 15:30:33.181  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Starting EnvironmentApplication on LAPTOP-J2F3UG0L with PID 6496 (D:\JetBrains\idea-workspace\environment\target\classes started by wangxuan in D:\JetBrains\idea-workspace\environment)
+2018-12-14 15:30:33.185  [main] DEBUG [com.itwx.environment.EnvironmentApplication:] maincid - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2018-12-14 15:30:33.186  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - No active profile set, falling back to default profiles: default
+2018-12-14 15:30:34.616  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Started EnvironmentApplication in 1.907 seconds (JVM running for 2.837)
+2018-12-14 15:30:39.969  [http-nio-8601-exec-1] DEBUG [com.itwx.environment.mybatis.cache.mapper.UserMapper.selectUserByState:] http-nio-8601-exec-1cid - ==>  Preparing: select id,name,balance,state from user where 1=1 and state = ? 
+2018-12-14 15:30:39.982  [http-nio-8601-exec-1] DEBUG [com.itwx.environment.mybatis.cache.mapper.UserMapper.selectUserByState:] http-nio-8601-exec-1cid - ==> Parameters: 0(Integer)
+2018-12-14 15:30:39.994  [http-nio-8601-exec-1] DEBUG [com.itwx.environment.mybatis.cache.mapper.UserMapper.selectUserByState:] http-nio-8601-exec-1cid - <==      Total: 1
+2018-12-14 15:36:29.346  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Starting EnvironmentApplication on LAPTOP-J2F3UG0L with PID 5428 (D:\JetBrains\idea-workspace\environment\target\classes started by wangxuan in D:\JetBrains\idea-workspace\environment)
+2018-12-14 15:36:29.350  [main] DEBUG [com.itwx.environment.EnvironmentApplication:] maincid - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2018-12-14 15:36:29.350  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - No active profile set, falling back to default profiles: default
+2018-12-14 15:36:30.731  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Started EnvironmentApplication in 1.837 seconds (JVM running for 2.794)
+2018-12-14 15:37:03.484  [http-nio-8601-exec-2] DEBUG [com.itwx.environment.mybatis.cache.mapper.UserMapper.selectUserByName:] http-nio-8601-exec-2cid - ==>  Preparing: select id,name,balance,state from user where 1=1 and name = caoyc 
+2018-12-14 15:37:03.497  [http-nio-8601-exec-2] DEBUG [com.itwx.environment.mybatis.cache.mapper.UserMapper.selectUserByName:] http-nio-8601-exec-2cid - ==> Parameters: 
+2018-12-14 15:37:47.124  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Starting EnvironmentApplication on LAPTOP-J2F3UG0L with PID 15012 (D:\JetBrains\idea-workspace\environment\target\classes started by wangxuan in D:\JetBrains\idea-workspace\environment)
+2018-12-14 15:37:47.129  [main] DEBUG [com.itwx.environment.EnvironmentApplication:] maincid - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2018-12-14 15:37:47.130  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - No active profile set, falling back to default profiles: default
+2018-12-14 15:37:48.566  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Started EnvironmentApplication in 1.891 seconds (JVM running for 2.874)
+2018-12-14 15:37:51.475  [http-nio-8601-exec-1] DEBUG [com.itwx.environment.mybatis.cache.mapper.UserMapper.selectUserByName:] http-nio-8601-exec-1cid - ==>  Preparing: select id,name,balance,state from user where 1=1 and name = ? 
+2018-12-14 15:37:51.489  [http-nio-8601-exec-1] DEBUG [com.itwx.environment.mybatis.cache.mapper.UserMapper.selectUserByName:] http-nio-8601-exec-1cid - ==> Parameters: caoyc(String)
+2018-12-14 15:37:51.501  [http-nio-8601-exec-1] DEBUG [com.itwx.environment.mybatis.cache.mapper.UserMapper.selectUserByName:] http-nio-8601-exec-1cid - <==      Total: 1
+2018-12-14 15:39:18.694  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Starting EnvironmentApplication on LAPTOP-J2F3UG0L with PID 3596 (D:\JetBrains\idea-workspace\environment\target\classes started by wangxuan in D:\JetBrains\idea-workspace\environment)
+2018-12-14 15:39:18.701  [main] DEBUG [com.itwx.environment.EnvironmentApplication:] maincid - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2018-12-14 15:39:18.702  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - No active profile set, falling back to default profiles: default
+2018-12-14 15:39:20.362  [main] INFO  [com.itwx.environment.EnvironmentApplication:] maincid - Started EnvironmentApplication in 2.209 seconds (JVM running for 3.196)
+2018-12-14 15:39:22.477  [http-nio-8601-exec-1] DEBUG [com.itwx.environment.mybatis.cache.mapper.UserMapper.selectUserByName:] http-nio-8601-exec-1cid - ==>  Preparing: select id,name,balance,state from user where 1=1 and name = caoyc 
+2018-12-14 15:39:22.491  [http-nio-8601-exec-1] DEBUG [com.itwx.environment.mybatis.cache.mapper.UserMapper.selectUserByName:] http-nio-8601-exec-1cid - ==> Parameters: 
+2018-12-14 15:39:37.967  [http-nio-8601-exec-3] DEBUG [com.itwx.environment.mybatis.cache.mapper.UserMapper.selectUserByName:] http-nio-8601-exec-3cid - ==>  Preparing: select id,name,balance,state from user where 1=1 and name = "caoyc" 
+2018-12-14 15:39:37.968  [http-nio-8601-exec-3] DEBUG [com.itwx.environment.mybatis.cache.mapper.UserMapper.selectUserByName:] http-nio-8601-exec-3cid - ==> Parameters: 
+2018-12-14 15:39:37.981  [http-nio-8601-exec-3] DEBUG [com.itwx.environment.mybatis.cache.mapper.UserMapper.selectUserByName:] http-nio-8601-exec-3cid - <==      Total: 1
+2018-12-14 15:39:52.077  [http-nio-8601-exec-5] DEBUG [com.itwx.environment.mybatis.cache.mapper.UserMapper.selectUserByName:] http-nio-8601-exec-5cid - ==>  Preparing: select id,name,balance,state from user where 1=1 and name = 'caoyc' 
+2018-12-14 15:39:52.078  [http-nio-8601-exec-5] DEBUG [com.itwx.environment.mybatis.cache.mapper.UserMapper.selectUserByName:] http-nio-8601-exec-5cid - ==> Parameters: 
+2018-12-14 15:39:52.079  [http-nio-8601-exec-5] DEBUG [com.itwx.environment.mybatis.cache.mapper.UserMapper.selectUserByName:] http-nio-8601-exec-5cid - <==      Total: 1

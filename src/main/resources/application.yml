@@ -6,30 +6,34 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: 123456
-    url: jdbc:mysql://127.0.0.1:3306/data
-  redis:
-    host: 192.168.40.129
-    database: 0
-    password:
-    jedis:
-      pool:
-      #最大连接数，使用负值表示没有限制
-        max-active: 8
-        #连接池最大阻塞时间，使用负值没有限制
-        max-wait: -1ms
-        #连接池最大空闲连接
-        max-idle: 8
-        #连接池最小空闲连接
-        min-idle: 0
-    #连接超时时间
-    timeout: 0ms
-
-
-
-
-#  profiles:
-#    active: dev
-mybatis:
-  mapper-locations: classpath:/mapper/**/*.xml
+    url: jdbc:mysql://127.0.0.1:3306/test
+#  redis:
+#    host: 192.168.40.129
+#    database: 0
+#    password:
+#    jedis:
+#      pool:
+#      #最大连接数，使用负值表示没有限制
+#        max-active: 8
+#        #连接池最大阻塞时间，使用负值没有限制
+#        max-wait: -1ms
+#        #连接池最大空闲连接
+#        max-idle: 8
+#        #连接池最小空闲连接
+#        min-idle: 0
+#    #连接超时时间
+#    timeout: 0ms
+#  rabbitmq:
+#    host: 192.168.40.129
+#    port: 5672
+#    username:
+#    password:
+#
+#
+#
+##  profiles:
+##    active: dev
+#mybatis:
+#  mapper-locations: classpath:/mapper/**/*.xml
 
 

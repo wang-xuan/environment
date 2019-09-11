@@ -16,9 +16,9 @@ public class EnvironmentApplication {
 //        ApplicationContext context = new ClassPathXmlApplicationContext("programmeBean.xml");
 //        OrderServiceProgramme orderService = (OrderServiceProgramme) context.getBean("orderServiceProgramme");
 //        orderService.accountMoney();
-        ApplicationContext context = new ClassPathXmlApplicationContext("aspectJBean.xml");
-        OrderServiceAspect orderServiceAspect = (OrderServiceAspect) context.getBean("orderServiceAspect");
-        orderServiceAspect.accountMoney();
+//        ApplicationContext context = new ClassPathXmlApplicationContext("aspectJBean.xml");
+//        OrderServiceAspect orderServiceAspect = (OrderServiceAspect) context.getBean("orderServiceAspect");
+//        orderServiceAspect.accountMoney();
     }
 
 }

@@ -1,5 +1,8 @@
 package com.itwx.environment.util.model;
 
+import java.util.LinkedList;
+import java.util.List;
+
 /**
  * @Author:wx
  * @Date:2019/8/20 13:20

@@ -1,9 +1,6 @@
 package com.itwx.environment.java8;
 
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 /**
  * @Author:wx
@@ -33,5 +30,19 @@ public class JavaTest {
         });
 
         names.forEach(e -> System.out.println(e));
+
+
+        Map map = new HashMap(4);
+        map.put("key1","value1");
+        map.put("key2","value2");
+        map.put("key3","value3");
+
+        Object key = map.get("key");
+        System.out.println("key is " + key);
+
+        Optional<Object> optional = Optional.ofNullable(map.get("key"));
+        if (optional.isPresent()) {
+            System.out.println(optional);
+        }
     }
 }

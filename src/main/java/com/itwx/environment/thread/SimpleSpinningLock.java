@@ -1,5 +1,12 @@
 package com.itwx.environment.thread;
 
+import cn.hutool.core.lang.Assert;
+
+import java.text.SimpleDateFormat;
+import java.time.Duration;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Optional;
 import java.util.concurrent.atomic.AtomicReference;
 
@@ -31,5 +38,12 @@ public class SimpleSpinningLock {
     }
 
     public static void main(String[] args) {
+        LocalTime mid = LocalTime.parse("00:00:00");
+        LocalTime parse = LocalTime.parse("01:00",DateTimeFormatter.ofPattern("H:m"));
+        Duration duration = Duration.between(mid, parse);
+
+        int l = (int)duration.toMinutes();
+        int hour = mid.getHour();
+        System.out.println(l);
     }
 }

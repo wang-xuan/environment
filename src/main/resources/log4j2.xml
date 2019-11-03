@@ -8,54 +8,54 @@
             <!-- 输出日志的格式-->
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level [%logger{50}:%L]  - %msg%n" charset="UTF-8"/>
         </Console>
-        <RollingRandomAccessFile name="FILE-INFO" fileName="logs/WXenvironment-info.log"
-                                 filePattern="logs/WXenvironment-info%d{yyyy-MM-dd-HH}.log">
+        <RollingRandomAccessFile name="FILE-INFO" fileName="logs/environment-info.log"
+                                 filePattern="logs/environment-info%d{yyyy-MM-dd-HH}.log">
             <ThresholdFilter level="info" onMatch="ACCEPT" onMismatch="DENY" />
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level [%logger{50}:%L] %tcid - %msg%n" charset="UTF-8" />
             <TimeBasedTriggeringPolicy  interval="1" />
             <DefaultRolloverStrategy max="1"  >
                 <Delete basePath="logs" maxDepth="2">
-                    <IfFileName glob="*WXenvironment-info.*.log" />
+                    <IfFileName glob="*environment-info.*.log" />
                     <IfLastModified age="1h" />
                 </Delete>
             </DefaultRolloverStrategy>
         </RollingRandomAccessFile>
 
 
-        <RollingRandomAccessFile name="FILE-DEBUG" fileName="logs/BioSanLims-debug.log"
-                                 filePattern="logs/WXenvironment-debug%d{yyyy-MM-dd-HH}.log">
+        <RollingRandomAccessFile name="FILE-DEBUG" fileName="logs/environment-debug.log"
+                                 filePattern="logs/environment-debug%d{yyyy-MM-dd-HH}.log">
             <ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY" />
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS}  [%t] %-5level [%logger{50}:%L] %tcid - %msg%n" charset="UTF-8" />
             <TimeBasedTriggeringPolicy  interval="1" />
             <DefaultRolloverStrategy max="1"  >
                 <Delete basePath="logs" maxDepth="2">
-                    <IfFileName glob="*WXenvironment-debug.*.log" />
+                    <IfFileName glob="*environment-debug.*.log" />
                     <IfLastModified age="1h" />
                 </Delete>
             </DefaultRolloverStrategy>
         </RollingRandomAccessFile>
 
-        <RollingRandomAccessFile name="FILE-WARN" fileName="logs/WXenvironment-warn.log"
-                                 filePattern="logs/WXenvironment-warn%d{yyyy-MM-dd-HH}.log">
+        <RollingRandomAccessFile name="FILE-WARN" fileName="logs/environment-warn.log"
+                                 filePattern="logs/environment-warn%d{yyyy-MM-dd-HH}.log">
             <ThresholdFilter level="warn" onMatch="ACCEPT" onMismatch="DENY" />
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level [%logger{50}:%L] %tcid - %msg%n" charset="UTF-8" />
             <TimeBasedTriggeringPolicy  interval="1" />
             <DefaultRolloverStrategy max="1"  >
                 <Delete basePath="logs" maxDepth="2">
-                    <IfFileName glob="*WXenvironment-warn.*.log" />
+                    <IfFileName glob="*environment-warn.*.log" />
                     <IfLastModified age="1h" />
                 </Delete>
             </DefaultRolloverStrategy>
         </RollingRandomAccessFile>
 
-        <RollingRandomAccessFile name="FILE-ERROR" fileName="logs/WXenvironment-error.log"
-                                 filePattern="logs/WXenvironment-error%d{yyyy-MM-dd-HH}.log">
+        <RollingRandomAccessFile name="FILE-ERROR" fileName="logs/environment-error.log"
+                                 filePattern="logs/environment-error%d{yyyy-MM-dd-HH}.log">
             <ThresholdFilter level="error" onMatch="ACCEPT" onMismatch="DENY" />
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level [%logger{50}:%L] %tcid - %msg%n" charset="UTF-8" />
             <TimeBasedTriggeringPolicy  interval="1" />
             <DefaultRolloverStrategy max="1"  >
                 <Delete basePath="logs" maxDepth="2">
-                    <IfFileName glob="*WXenvironment-error.*.log" />
+                    <IfFileName glob="*environment-error.*.log" />
                     <IfLastModified age="1h" />
                 </Delete>
             </DefaultRolloverStrategy>
@@ -64,7 +64,7 @@
 
     <!--name 日志作用范围包-->
     <loggers>
-        <AsyncLogger level="debug" name="com.itwx.environment" additivity="false">
+        <AsyncLogger level="debug" name="com.itcode.environment" additivity="false">
             <appender-ref ref="FILE-DEBUG"/>
             <AppenderRef ref="FILE-INFO" />
             <AppenderRef ref="FILE-WARN" />

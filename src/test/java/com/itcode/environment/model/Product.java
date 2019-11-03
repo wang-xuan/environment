@@ -1,4 +1,4 @@
-package com.itwx.environment.util.model;
+package com.itcode.environment.model;
 
 import java.math.BigDecimal;
 

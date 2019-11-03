@@ -1,4 +1,7 @@
-package com.itwx.environment.java8.model;
+package com.itcode.environment.java8.lamdba.main;
+
+import com.itcode.environment.java8.lamdba.model.Trader;
+import com.itcode.environment.java8.lamdba.model.Transaction;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -7,43 +10,9 @@ import static java.util.stream.Collectors.groupingBy;
 
 /**
  * @Author:wx
- * @Date:2019/10/11 11:17
+ * @Date:2019/11/3 9:24
  */
-public class Transaction {
-    private final Trader trader;
-    private final int year;
-    private final int value;
-
-    private Currency currency;
-
-    public Transaction(Trader trader, int year, int value) {
-        this.trader = trader;
-        this.year = year;
-        this.value = value;
-    }
-
-    public Trader getTrader() {
-        return this.trader;
-    }
-
-    public int getYear() {
-        return this.year;
-    }
-
-    public int getValue() {
-        return this.value;
-    }
-
-    public Currency getCurrency() {
-        return this.currency;
-    }
-
-    @Override
-    public String toString() {
-        return "{" + this.trader + ", " +
-                "year: " + this.year + ", " +
-                "value:" + this.value + "}";
-    }
+public class TransactionMain {
 
     public static void main(String[] args) {
         Trader raoul = new Trader("Raoul", "Cambridge");
@@ -79,19 +48,6 @@ public class Transaction {
 
 
         System.out.println("------------使用流收集数据--------------");
-        //场景1：按照交易货币进行分组
-        Map<Currency, List<Transaction>> transactionsByCurrencies = new HashMap<>(8);
-        //原始方式
-        for (Transaction transaction : transactions) {
-            Currency currency = transaction.getCurrency();
-            List<Transaction> transactionsForCurrency = transactionsByCurrencies.get(currency);
-            if (transactionsForCurrency == null) {
-                transactionsForCurrency = new ArrayList<>();
-                transactionsByCurrencies.put(currency, transactionsForCurrency);
-            }
-            transactionsForCurrency.add(transaction);
-        }
-
         //lambda 8分组:groupingBy映射成map按照给定谓词
         Map<String, List<Transaction>> currencyListMap = transactions.stream().collect(groupingBy(e -> e.getTrader().getName()));
         for (Map.Entry map : currencyListMap.entrySet()) {

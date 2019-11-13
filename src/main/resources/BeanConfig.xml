@@ -16,7 +16,7 @@
         <property name="name" value="zhangSan" />
     </bean>
 
-    <bean id="school" class="com.itcode.environment.spring.mode.School" autowire="byType">
+    <bean id="school" class="com.itcode.environment.spring.mode.School" autowire="constructor">
         <property name="schoolName" value="南阳理工"/>
     </bean>
 

@@ -8,8 +8,10 @@ public class School {
     private String schoolName;
     private String address;
     private int studentNumber;
-    /**byName：按照名字自动装配即 将与bean中[属性名字相同]的 其他[beanName]自动装配到该Bean对应的属性中*/
-    private Student student;
+    /**byName：按照名字自动装配即 将与bean中[属性名字相同]的 其他[beanName]自动装配到该Bean对应的属性中
+     * byType：按照属性类型装配即 将与bean中属性类型相同的 其他bean自动装配到该bean对应的属性中
+     * */
+    private Student studentByType;
 
     public String getSchoolName() {
         return schoolName;
@@ -30,12 +32,12 @@ public class School {
         this.studentNumber = studentNumber;
     }
 
-    public Student getStudent() {
-        return student;
+    public Student getStudentByType() {
+        return studentByType;
     }
 
-    public void setStudent(Student student) {
-        this.student = student;
+    public void setStudentByType(Student studentByType) {
+        this.studentByType = studentByType;
     }
 
     @Override

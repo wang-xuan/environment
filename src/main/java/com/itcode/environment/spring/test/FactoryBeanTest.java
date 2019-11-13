@@ -21,6 +21,6 @@ public class FactoryBeanTest {
         System.out.println("------------自动装配属性值-------");
         //采用byName方式，自动装配School中的student属性值
         School school = (School) pathXmlApplicationContext.getBean("school");
-        System.out.println("school:" + school.getSchoolName() + ", studentName:" + school.getStudent().getName());
+        System.out.println("school:" + school.getSchoolName() + ", studentName:" + school.getStudentByType().getName());
     }
 }

@@ -163,6 +163,14 @@
             <artifactId>aspectjweaver</artifactId>
             <version>1.9.2</version>
         </dependency>
+        <!--Google zxing生成二维码依赖-->
+        <dependency>
+            <groupId>com.google.zxing</groupId>
+            <artifactId>javase</artifactId>
+            <version>3.3.0</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>

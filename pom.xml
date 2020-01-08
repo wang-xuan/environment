@@ -3,7 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.itcode.environment</groupId>
     <artifactId>environment</artifactId>
+    <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
+    <modules>
+        <module>design_model</module>
+    </modules>
     <name>environment</name>
     <description>Demo project for Spring Boot</description>
 

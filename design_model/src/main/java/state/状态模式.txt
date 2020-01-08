@@ -1,0 +1,2 @@
+Context环境上下文中依赖State类（即State接口作为Context类的属性，提供setState(State state)方法，参数为具体子类对象）；
+再提供外部方法供客户端调用不同状态下对象的不同行为；

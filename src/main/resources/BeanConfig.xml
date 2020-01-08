@@ -16,11 +16,11 @@
         <property name="name" value="zhangSan" />
     </bean>
 
-    <bean id="school" class="com.itcode.environment.spring.mode.School" autowire="constructor">
-        <property name="schoolName" value="南阳理工"/>
-    </bean>
+    <!--<bean id="school" class="com.itcode.environment.spring.mode.School" autowire="constructor">-->
+        <!--<property name="schoolName" value="南阳理工"/>-->
+    <!--</bean>-->
 
-    <bean id="factoryBeanPojo" class="com.itcode.environment.spring.factorybean.FactoryBeanPojo">
-        <property name="type" value="student" />
-    </bean>
+    <!--<bean id="factoryBeanPojo" class="com.itcode.environment.spring.factorybean.FactoryBeanPojo">-->
+        <!--<property name="type" value="student" />-->
+    <!--</bean>-->
 </beans>
